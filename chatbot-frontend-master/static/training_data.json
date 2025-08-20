@@ -1,0 +1,149 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good day",
+                "How are you?"
+            ],
+            "responses": [
+                "Hello! How can I assist you with your career today?",
+                "Hi there! Ready to explore your career options?",
+                "Hey! What guidance do you need for your career?"
+            ]
+        },
+        {
+            "tag": "career_mechanical",
+            "patterns": [
+                "What are the career options in Mechanical Engineering?",
+                "What can I do with a degree in Mechanical Engineering?",
+                "Is Mechanical Engineering a good career?"
+            ],
+            "responses": [
+                "Mechanical Engineering offers careers in manufacturing, automotive design, robotics, and energy systems. Fields like aerospace and renewable energy are also popular.",
+                "You can work in industries like automotive, aerospace, or even pursue research in robotics and mechatronics."
+            ]
+        },
+        {
+            "tag": "career_civil",
+            "patterns": [
+                "What can I do in Civil Engineering?",
+                "What are career options for Civil Engineers?",
+                "Is Civil Engineering a good field?"
+            ],
+            "responses": [
+                "Civil Engineering careers include construction management, structural engineering, environmental engineering, and urban planning.",
+                "You can work on projects like building bridges, highways, or sustainable infrastructure."
+            ]
+        },
+        {
+            "tag": "career_ai",
+            "patterns": [
+                "What are career options in AI?",
+                "What can I do with Artificial Intelligence?",
+                "Is AI a good career choice?"
+            ],
+            "responses": [
+                "AI offers careers in research, autonomous systems, NLP, computer vision, and AI product development.",
+                "You can work as an AI Engineer, Research Scientist, or build intelligent applications for various industries."
+            ]
+        },
+        {
+            "tag": "career_ds",
+            "patterns": [
+                "What can I do with Data Science?",
+                "What are Data Science career options?",
+                "Is Data Science in demand?"
+            ],
+            "responses": [
+                "Data Science careers include roles like Data Analyst, Data Engineer, and Machine Learning Engineer. It is in high demand across industries like finance, healthcare, and e-commerce.",
+                "You can work with big data, predictive modeling, or develop insights for businesses using advanced analytics."
+            ]
+        },
+        {
+            "tag": "career_ml",
+            "patterns": [
+                "What are the career options in Machine Learning?",
+                "Is Machine Learning a good career?",
+                "What can I do in ML?"
+            ],
+            "responses": [
+                "Machine Learning offers careers in predictive modeling, recommendation systems, autonomous systems, and algorithm development.",
+                "You can work as a Machine Learning Engineer, Research Scientist, or develop AI-powered solutions for industries."
+            ]
+        },
+        {
+            "tag": "education_requirements",
+            "patterns": [
+                "What qualifications do I need for AI?",
+                "Do I need a degree to become a Data Scientist?",
+                "What courses should I take for Machine Learning?",
+                "Is certification enough for a good job?"
+            ],
+            "responses": [
+                "For AI, a degree in Computer Science, Mathematics, or related fields is helpful, along with knowledge of programming and machine learning.",
+                "Data Science requires skills in statistics, Python, and data visualization tools. Certifications like Google's Data Analytics certificate can help.",
+                "For Machine Learning, understanding programming, algorithms, and mathematics is crucial. Hands-on projects are important for showcasing your skills."
+            ]
+        },
+        {
+            "tag": "skill_development",
+            "patterns": [
+                "How can I improve my skills?",
+                "What skills are required for AI?",
+                "What should I learn for Data Science?",
+                "How do I learn Machine Learning?"
+            ],
+            "responses": [
+                "To improve AI skills, focus on Python, deep learning frameworks like TensorFlow, and understanding algorithms.",
+                "For Data Science, learn Python, SQL, data visualization, and tools like Tableau or Power BI.",
+                "To learn Machine Learning, start with online courses, understand linear regression and neural networks, and practice on datasets."
+            ]
+        },
+        {
+            "tag": "interview_tips",
+            "patterns": [
+                "How do I prepare for interviews?",
+                "Can you give me some interview tips?",
+                "What should I focus on for job interviews?",
+                "How to crack technical interviews?"
+            ],
+            "responses": [
+                "Prepare for interviews by practicing common questions, learning about the company, and improving communication skills.",
+                "For technical interviews, focus on data structures, algorithms, and projects you've worked on.",
+                "Mock interviews and coding challenges can help build confidence for technical rounds."
+            ]
+        },
+        {
+            "tag": "job_market",
+            "patterns": [
+                "Which industries are growing?",
+                "What are the best jobs right now?",
+                "Where can I find jobs?",
+                "What is the scope of AI in the future?"
+            ],
+            "responses": [
+                "Technology, healthcare, and renewable energy are growing industries.",
+                "AI, Data Science, and Cybersecurity are among the top fields right now.",
+                "You can find jobs on LinkedIn, Indeed, and Glassdoor."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Thank you",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "You're welcome! Good luck with your career!",
+                "See you soon! Let me know if you need more guidance.",
+                "Goodbye! Wishing you all the best."
+            ]
+        }
+    ]
+}
